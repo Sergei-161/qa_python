@@ -69,3 +69,4 @@ class TestBooksCollector:
 
     def test_get_books_with_specific_genre_by_wrong_genre(self, books_collection):
         assert len(books_collection.get_books_with_specific_genre('Роман')) == 0
+
